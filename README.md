@@ -29,7 +29,7 @@ How to Run
 
 Clone the repository:
 
-git clone https://github.com/yourusername/red-invisibility-cloak.git
+git clone  https://vengababu-x.github.io/invisibility-cloak/
 cd red-invisibility-cloak
 
 
