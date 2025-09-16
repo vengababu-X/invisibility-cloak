@@ -56,6 +56,4 @@ Screenshots / Demo
 
 (Optional: Add images or GIFs showing the effect here.)
 
-License
 
-MIT License – feel free to use and modify the code.
