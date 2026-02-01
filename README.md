@@ -91,14 +91,14 @@ python invisibility_cloak.py
  ┃ ┗ motion.gif
  ┣ invisibility_cloak.py
  ┗ README.md
-
+```
 ## 🧠 OpenCV Usage (Core of the Project)
 
 This project is built **primarily on OpenCV**.  
 All real-time vision, masking, blending, and motion detection are implemented using OpenCV APIs.
 
 ### Key OpenCV Functions Used
-
+```
 | Purpose | OpenCV API |
 |------|-----------|
 | Webcam capture | `cv2.VideoCapture` |
@@ -111,7 +111,7 @@ All real-time vision, masking, blending, and motion detection are implemented us
 | Background blending | `cv2.addWeighted` (manual alpha blend) |
 | K-Means clustering | `cv2.kmeans` |
 | Real-time display | `cv2.imshow`, `cv2.waitKey` |
-
+```
 ---
 
 ### Example: OpenCV-Based Masking & Blending
@@ -128,7 +128,7 @@ alpha = cv2.merge([mask/255]*3)
 output = (alpha * background + (1 - alpha) * frame).astype(np.uint8)
 
 ---
-
+```
 ### Optional one-line fix at the top (also recommended)
 
 Replace this line near the top:
@@ -138,5 +138,5 @@ Built with OpenCV, NumPy, and optional ML segmentation
 
 Built primarily with OpenCV for real-time computer vision, with NumPy for math and optional ML-based segmentation
 
-
+```
 Thank you.
